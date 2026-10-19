@@ -1,0 +1,4 @@
+dataset,samples,timepoints,channels,class_0,class_1,missing_cells,missing_fraction,complete_missing_timepoints,partial_missing_timepoints,clean_shape
+education,50,7200,3,25,25,54168,0.05015555555555556,18056,0,"(50, 7200, 3)"
+medical,50,7200,3,25,25,53118,0.049183333333333336,17706,0,"(50, 7200, 3)"
+usability,50,7200,3,25,25,53715,0.04973611111111111,17905,0,"(50, 7200, 3)"

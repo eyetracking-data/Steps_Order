@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the repository and the dissertation when available."
+title: "Steps Order: Paired Sensitivity of Preprocessing Operator Order"
+authors:
+  - family-names: "Landes"
+    given-names: "Jennifer"
+repository-code: "https://github.com/eyetracking-data/Steps_Order"
+type: software

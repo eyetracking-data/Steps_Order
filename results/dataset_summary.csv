@@ -1,0 +1,7 @@
+dataset,order,raw_accuracy,best_final_pipeline,best_final_accuracy,best_final_f1,best_final_auroc
+education,mv_first,0.6799999999999999,J_interp_std,0.74,0.7407148407148407,0.8
+education,out_first,0.6799999999999999,J_interp_std,0.74,0.7407148407148407,0.8
+medical,mv_first,0.44000000000000006,N_median_smooth,0.5,0.3571428571428571,0.528
+medical,out_first,0.44000000000000006,N_median_smooth,0.5,0.3571428571428571,0.528
+usability,mv_first,0.4,O_limit10,0.54,0.5191086691086692,0.512
+usability,out_first,0.4,O_limit10,0.58,0.510909090909091,0.512

@@ -1,0 +1,16 @@
+pipeline,outlier,mv,norm,smooth,butter,feat_limit
+A_baseline,none,mean,standard,none,False,
+B_robust,iforest,knn,robust,none,False,
+C_signal,iforest,knn,robust,fft,True,
+D_limit,iforest,knn,robust,fft,True,30.0
+E_clinical,winsor,locf,standard,none,False,
+F_knn_only,none,knn,robust,none,False,
+G_iqr_knn,iqr_clip,knn,robust,none,False,
+H_if_mean,iforest,mean,robust,none,False,
+I_locf_robust,none,locf,robust,none,False,
+J_interp_std,none,linear_interp,standard,none,False,
+K_norm_only,none,mean,robust,none,False,
+L_fft_only,iforest,knn,robust,fft,False,
+M_butter_only,iforest,knn,robust,none,True,
+N_median_smooth,none,linear_interp,robust,median,False,
+O_limit10,iforest,knn,robust,fft,True,10.0

@@ -1,0 +1,19 @@
+{
+  "generated_utc": "2026-10-19T20:07:22.750942+00:00",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "scikit_learn": "1.8.0",
+  "experiment": "15 progressive configurations × 2 orders × 3 synthetic scenarios × stratified five-fold CV",
+  "fold_result_rows": 450,
+  "pair_result_rows": 45,
+  "raw_baseline_rows": 15,
+  "recompute_method": "Portable cached replay of the corrected notebook functions; no numerical algorithms altered",
+  "source_code_sha256": "f21e11686d5a38e41d3988ca25e04c17f98e2e7e9a295dc33c936de96518c56b",
+  "datasets_sha256": {
+    "education": "cb2de2f62015720ef57100ba54f4f9e908efaface200162cc3e2433e52aa3e35",
+    "medical": "8bab74e9e0602051d244b9eaa94d4f004c5c73789cd5aa1816a75320fabf372e",
+    "usability": "58a85fdce8fe5e1e747b53cc324ae03337062f63b979ebb0335cb71c1ca0ad25"
+  }
+}

@@ -1,0 +1,4 @@
+dataset,mean_delta_accuracy_mv_minus_out,outlier_pipelines_count
+education,-0.028888888888888853,9
+medical,-0.0133333333333333,9
+usability,-0.008888888888888856,9
